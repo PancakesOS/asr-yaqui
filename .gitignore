@@ -1,0 +1,29 @@
+# Datos de la comunidad: nunca se versionan
+data/*
+!data/README.md
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.eaf
+*.TextGrid
+
+# PDF de artículos y libros (derechos de autor)
+referencias/pdf/
+
+# Modelos y resultados pesados
+models/
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# Python y uv
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
